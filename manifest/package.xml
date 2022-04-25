@@ -72,4 +72,8 @@
         <members>*</members>
         <name>Profile</name>
     </types>
+     <types>
+        <members>*</members>
+        <name>RecordType</name>
+    </types>
 </Package>
