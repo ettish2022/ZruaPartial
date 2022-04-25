@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FundsSource__c</fullName>
+    <externalId>false</externalId>
+    <label>סוג ההכשרה</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>מתוקצב</fullName>
+                <default>false</default>
+                <label>מתוקצב</label>
+            </value>
+            <value>
+                <fullName>חרדים</fullName>
+                <default>false</default>
+                <label>חרדים</label>
+            </value>
+            <value>
+                <fullName>מיעוטים</fullName>
+                <default>false</default>
+                <label>מיעוטים</label>
+            </value>
+            <value>
+                <fullName>אנשים עם מוגבלות</fullName>
+                <default>false</default>
+                <label>אנשים עם מוגבלות</label>
+            </value>
+            <value>
+                <fullName>צעירים בסיכון</fullName>
+                <default>false</default>
+                <label>צעירים בסיכון</label>
+            </value>
+            <value>
+                <fullName>הורים עצמאיים</fullName>
+                <default>false</default>
+                <label>הורים עצמאיים</label>
+            </value>
+            <value>
+                <fullName>אוכלוסיית רווחה</fullName>
+                <default>false</default>
+                <label>אוכלוסיית רווחה</label>
+            </value>
+            <value>
+                <fullName>יוצאי אתיופיה</fullName>
+                <default>false</default>
+                <label>יוצאי אתיופיה</label>
+            </value>
+            <value>
+                <fullName>חיילים</fullName>
+                <default>false</default>
+                <label>חיילים</label>
+            </value>
+            <value>
+                <fullName>מלונאות</fullName>
+                <default>false</default>
+                <label>מלונאות</label>
+            </value>
+            <value>
+                <fullName>מעונות יום</fullName>
+                <default>false</default>
+                <label>מעונות יום</label>
+            </value>
+            <value>
+                <fullName>מתוקצב קורונה</fullName>
+                <default>false</default>
+                <label>מתוקצב קורונה</label>
+            </value>
+            <value>
+                <fullName>נוער</fullName>
+                <default>false</default>
+                <label>נוער</label>
+            </value>
+            <value>
+                <fullName>סטארטר</fullName>
+                <default>false</default>
+                <label>סטארטר</label>
+            </value>
+            <value>
+                <fullName>רווחה</fullName>
+                <default>false</default>
+                <label>רווחה</label>
+            </value>
+            <value>
+                <fullName>מסלול ירוק</fullName>
+                <default>false</default>
+                <label>מסלול ירוק</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

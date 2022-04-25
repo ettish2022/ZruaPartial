@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course</fullName>
+    <active>true</active>
+    <label>קורס</label>
+    <picklistValues>
+        <picklist>CourseDistrict__c</picklist>
+        <values>
+            <fullName>ארצי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>דרום</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ירושלים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מרכז</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>צפון</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FundsSource__c</picklist>
+        <values>
+            <fullName>אוכלוסיית רווחה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אנשים עם מוגבלות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הורים עצמאיים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חיילים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חרדים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>יוצאי אתיופיה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מיעוטים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מלונאות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מסלול ירוק</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מעונות יום</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מתוקצב</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מתוקצב קורונה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>נוער</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>סטארטר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>צעירים בסיכון</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>רווחה</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PopulationType__c</picklist>
+        <values>
+            <fullName>אוכלוסיית יוצאים בשאלה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אוכלוסיית רווחה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אנשים עם מוגבלות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אסירים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>בעלי רקע בתחום</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>גילאי 45%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הורים יחידים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הציבור הרחב</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חברה חרדית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חברה ערבית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חיילים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חיילים חרדים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>יוצאי אתיופיה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מטפלות בעלות וותק</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>נשים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>עולים חדשים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>צעירים בסיכון</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>קהל רחב</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>שירות אזרחי</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>בוטל</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>גיוס מועמדים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הסתיים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הרשמה נסגרה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מוקפא</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>נפתח</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>תכנון</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StudiesType__c</picklist>
+        <values>
+            <fullName>היברידי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מקוון</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>פרונטלי</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timing__c</picklist>
+        <values>
+            <fullName>בוקר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>סמסטריאלי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>עצמי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ערב</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Year__c</picklist>
+        <values>
+            <fullName>2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2027</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2028</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2029</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2030</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
