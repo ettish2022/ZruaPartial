@@ -84,6 +84,10 @@
 		<members>*</members>
 		<name>CustomFeedFilter</name>
 	</types>
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
 	<types>
 		<members>*</members>
 		<name>CustomHelpMenuSection</name>
@@ -104,6 +108,10 @@
 		<members>*</members>
 		<name>CustomObjectTranslation</name>
 	</types>
+    <types>
+       <members>*</members>
+       <name>CustomTab</name>
+    </types>
 	<types>
 		<members>*</members>
 		<name>Dashboard</name>
