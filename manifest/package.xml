@@ -42,7 +42,15 @@
     </types>
 	<types>
 		<members>*</members>
+		<name>BrandingSet</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>CallCenter</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Certificate</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -54,7 +62,15 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>ConnectedApp</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>ContentAsset</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CorsWhitelistOrigin</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -63,6 +79,10 @@
 	<types>
 		<members>*</members>
 		<name>CustomApplicationComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomFeedFilter</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -87,6 +107,10 @@
 	<types>
 		<members>*</members>
 		<name>Dashboard</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DataCategoryGroup</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -178,6 +202,10 @@
     </types>
 	<types>
 		<members>*</members>
+		<name>LightningExperienceTheme</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>MatchingRules</name>
 	</types>
 	<types>
@@ -248,4 +276,9 @@
 		<members>*</members>
 		<name>Workflow</name>
 	</types>
+    <types>
+        <members>*</members>
+        <name>Translations</name>
+    </types>
+	<version>54.0</version>
 </Package>

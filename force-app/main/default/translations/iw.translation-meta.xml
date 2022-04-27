@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Lead Generation --></label>
+        <name>Lead_Generation</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- ממשק לפרט --></label>
+        <name>Mimshk_Laprat</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- ספריית עיסוקים --></label>
+        <name>OccupationsManagement</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Relationship Management --></label>
+        <name>Relationship_Management</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Sales Leadership --></label>
+        <name>Sales_Leadership</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Sales Operations --></label>
+        <name>Sales_Operations</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- The Working Arm --></label>
+        <name>The_working_arm</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- זרוע העבודה --></label>
+        <name>theWorkingAppCons</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- זירת מעסיקים --></label>
+        <name>zroaa_avoda</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- AddError_DuplicateBranch --></label>
+        <name>AddError_DuplicateBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddError_OnlyOneContact --></label>
+        <name>AddError_OnlyOneContact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddError_deserializeUntypedList --></label>
+        <name>AddError_deserializeUntypedList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddError_deserializeUntypedMap --></label>
+        <name>AddError_deserializeUntypedMap</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddError_noMoreThan10Vouchers --></label>
+        <name>AddError_noMoreThan10Vouchers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddError_noMoreThan15RejectedVouchers --></label>
+        <name>AddError_noMoreThan15RejectedVouchers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddError_noRightStatus --></label>
+        <name>AddError_noRightStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Did not received full answers data --></label>
+        <name>Did_not_received_full_answers_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No matching area field for the user input --></label>
+        <name>No_matching_area_field_for_the_user_input</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No score value for Area Field --></label>
+        <name>No_score_value_for_Area_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Occupation code not exists in the system --></label>
+        <name>Occupation_code_not_exists_in_the_system</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SiteCourses_Description --></label>
+        <name>SiteCourses_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SiteCourses_Title --></label>
+        <name>SiteCourses_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TestUtils_RequestDetails --></label>
+        <name>TestUtils_RequestDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_insertable --></label>
+        <name>dlrs__fflib_security_error_field_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_readable --></label>
+        <name>dlrs__fflib_security_error_field_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_field_not_updateable --></label>
+        <name>dlrs__fflib_security_error_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_deletable --></label>
+        <name>dlrs__fflib_security_error_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_insertable --></label>
+        <name>dlrs__fflib_security_error_object_not_insertable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_readable --></label>
+        <name>dlrs__fflib_security_error_object_not_readable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fflib_security_error_object_not_updateable --></label>
+        <name>dlrs__fflib_security_error_object_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- expecting for X fields areas from input --></label>
+        <name>expecting_for_X_fields_areas_from_input</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Change_Employer_Field_To_True</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Change_PR_record_type</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Change_Request_Status</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>FullTime</name>
+            </choices>
+            <choices>
+                <name>No</name>
+            </choices>
+            <choices>
+                <name>ParttimeJob</name>
+            </choices>
+            <choices>
+                <name>Yes</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>ApprovedWorkers</name>
+                </fields>
+                <fields>
+                    <name>DistrictLeads</name>
+                </fields>
+                <fields>
+                    <name>GroupCompany</name>
+                </fields>
+                <fields>
+                    <name>JobType</name>
+                </fields>
+                <fields>
+                    <name>NumOfWorkers</name>
+                </fields>
+                <name>Business_Matching_Program</name>
+            </screens>
+        </flows>
+        <fullName>Choose_Program</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Course_Changes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Create_QuickRequest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Employment_fair_Help</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Mimsak_Laprat_Email_Operator</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>New_Case_by_Conversion_proc</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>ProgramRequest_Changes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Request_Treatment_by_an_External_Entity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Send_Email_To_Employer</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Send_Email_To_Employer_OJT_Recommendation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Send_Email_To_Operator</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Send_email_after_Request_changed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Shovar_Lammasik_Email_Operator</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Update_Request_Status_Account</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Update_Request_Status_Contact</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Voucher_Changes</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- New Branch --></label>
+        <name>Create_Branch</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Follow Up --></label>
+        <name>Follow_Up</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- יצירת משלח יד --></label>
+        <name>NewOccupationGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Account --></label>
+        <name>New_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Branch --></label>
+        <name>New_Branch</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New הכשרה --></label>
+        <name>New_Training</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- בקשה מהירה --></label>
+        <name>QuickRequest</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Occupation Groups For Matrix Avodata --></description>
+        <label><!-- Occupation Groups For Matrix Avodata --></label>
+        <name>Occupation_Groups_For_Matrix_Avodata</name>
+        <sections>
+            <columns>
+                <label><!-- ISCO-08 --></label>
+                <name>ISCO-08</name>
+            </columns>
+            <columns>
+                <label><!-- דוגמאות למשימות --></label>
+                <name>דוגמאות למשימות</name>
+            </columns>
+            <columns>
+                <label><!-- דוגמאות למשימות בערבית --></label>
+                <name>דוגמאות למשימות בערבית</name>
+            </columns>
+            <columns>
+                <label><!-- לשון ניטרלית --></label>
+                <name>לשון ניטרלית</name>
+            </columns>
+            <columns>
+                <label><!-- לשון ניטרלית ערבית --></label>
+                <name>לשון ניטרלית ערבית</name>
+            </columns>
+            <columns>
+                <label><!-- משלחי יד דומים המסווגים בתתי-קבוצות אחרות --></label>
+                <name>משלחי יד דומים המסווגים בתתי-קבוצות אחרות</name>
+            </columns>
+            <columns>
+                <label><!-- שם בסיווג --></label>
+                <name>שם בסיווג</name>
+            </columns>
+            <columns>
+                <label><!-- תיאור ערוך --></label>
+                <name>תיאור ערוך</name>
+            </columns>
+            <columns>
+                <label><!-- תיאור ערוך ערבית --></label>
+                <name>תיאור ערוך ערבית</name>
+            </columns>
+            <label><!-- משלחי יד --></label>
+            <name>משלחי יד</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Occupations For Matrix Avodata --></description>
+        <label><!-- Occupations For Matrix Avodata --></label>
+        <name>Occupations_For_Matrix_Avodata</name>
+        <sections>
+            <columns>
+                <label><!-- ידוע כזכר --></label>
+                <name>ידוע כזכר</name>
+            </columns>
+            <columns>
+                <label><!-- ידוע כזכר ערבית --></label>
+                <name>ידוע כזכר ערבית</name>
+            </columns>
+            <columns>
+                <label><!-- ידוע כנקבה --></label>
+                <name>ידוע כנקבה</name>
+            </columns>
+            <columns>
+                <label><!-- ידוע כנקבה ערבית --></label>
+                <name>ידוע כנקבה ערבית</name>
+            </columns>
+            <columns>
+                <label><!-- כותרת ב- ESCO --></label>
+                <name>כותרת ב- ESCO</name>
+            </columns>
+            <columns>
+                <label><!-- מזהה מטריקס --></label>
+                <name>מזהה מטריקס</name>
+            </columns>
+            <columns>
+                <label><!-- ספק רישוי --></label>
+                <name>ספק רישוי</name>
+            </columns>
+            <columns>
+                <label><!-- ספק רישוי ערבית --></label>
+                <name>ספק רישוי ערבית</name>
+            </columns>
+            <columns>
+                <label><!-- קוד תחום 1 onet --></label>
+                <name>קוד תחום 1 onet</name>
+            </columns>
+            <columns>
+                <label><!-- קוד תחום 2 onet --></label>
+                <name>קוד תחום 2 onet</name>
+            </columns>
+            <columns>
+                <label><!-- קוד תחום 3 onet --></label>
+                <name>קוד תחום 3 onet</name>
+            </columns>
+            <columns>
+                <label><!-- קוד תחום 4 onet --></label>
+                <name>קוד תחום 4 onet</name>
+            </columns>
+            <columns>
+                <label><!-- קישור למידע רישוי --></label>
+                <name>קישור למידע רישוי</name>
+            </columns>
+            <columns>
+                <label><!-- שייך לקוד משלח יד --></label>
+                <name>שייך לקוד משלח יד</name>
+            </columns>
+            <columns>
+                <label><!-- שם עיסוק זכר - כותרת מועדפת --></label>
+                <name>שם עיסוק זכר - כותרת מועדפת</name>
+            </columns>
+            <columns>
+                <label><!-- שם עיסוק זכר ערבית --></label>
+                <name>שם עיסוק זכר ערבית</name>
+            </columns>
+            <columns>
+                <label><!-- שם עיסוק נקבה - כותרת מועדפת --></label>
+                <name>שם עיסוק נקבה - כותרת מועדפת</name>
+            </columns>
+            <columns>
+                <label><!-- שם עיסוק נקבה ערבית --></label>
+                <name>שם עיסוק נקבה ערבית</name>
+            </columns>
+            <columns>
+                <label><!-- תיאור קצר --></label>
+                <name>תיאור קצר</name>
+            </columns>
+            <columns>
+                <label><!-- תיאור קצר ערבית --></label>
+                <name>תיאור קצר ערבית</name>
+            </columns>
+            <label><!-- עיסוקים --></label>
+            <name>עיסוקים</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Program Requests --></description>
+        <label><!-- Program Requests --></label>
+        <name>Program_Requests</name>
+        <sections>
+            <label><!-- ProgramRequests --></label>
+            <name>ProgramRequests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Program Requests with Shovarim --></description>
+        <label><!-- Program Requests with Shovarim --></label>
+        <name>Program_Requests_with_Shovarim</name>
+        <sections>
+            <label><!-- שוברים --></label>
+            <name>שוברים</name>
+        </sections>
+        <sections>
+            <label><!-- תכניות למעסיק --></label>
+            <name>תכניות למעסיק</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- בקשות עם תוכניות למעסיק --></description>
+        <label><!-- בקשות עם תוכניות למעסיק --></label>
+        <name>Request_ProgramRequest</name>
+        <sections>
+            <label><!-- ProgramRequests --></label>
+            <name>ProgramRequests</name>
+        </sections>
+        <sections>
+            <label><!-- Requests --></label>
+            <name>Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- בקשות עם תוכניות למעסיק והכשרות --></description>
+        <label><!-- בקשות עם תוכניות למעסיק והכשרות --></label>
+        <name>Requests_ProgramRequest_Training</name>
+        <sections>
+            <label><!-- ProgramRequests --></label>
+            <name>ProgramRequests</name>
+        </sections>
+        <sections>
+            <label><!-- Requests --></label>
+            <name>Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Requests Shovar LaMaasik with Shovarim --></description>
+        <label><!-- Requests Shovar LaMaasik with Shovarim --></label>
+        <name>Requests_Shovar_LaMaasik_with_Shovarim</name>
+        <sections>
+            <label><!-- ProgramRequests --></label>
+            <name>ProgramRequests</name>
+        </sections>
+        <sections>
+            <label><!-- Requests --></label>
+            <name>Requests</name>
+        </sections>
+        <sections>
+            <label><!-- שוברים --></label>
+            <name>שוברים</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- בקשות ותוכניות אם יש --></description>
+        <label><!-- בקשות ותוכניות אם יש --></label>
+        <name>requestsAndPrograms</name>
+        <sections>
+            <label><!-- ProgramRequests --></label>
+            <name>ProgramRequests</name>
+        </sections>
+        <sections>
+            <label><!-- Requests --></label>
+            <name>Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>
