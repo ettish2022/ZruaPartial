@@ -6,23 +6,23 @@
     <picklistValues>
         <picklist>CourseDistrict__c</picklist>
         <values>
-            <fullName>ארצי</fullName>
+            <fullName>1</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>דרום</fullName>
+            <fullName>2</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>ירושלים</fullName>
+            <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>מרכז</fullName>
+            <fullName>4</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>צפון</fullName>
+            <fullName>5</fullName>
             <default>false</default>
         </values>
     </picklistValues>
