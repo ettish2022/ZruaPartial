@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customHelpMenuItems>
+        <linkUrl>https://ministryoflabor--c.documentforce.com/sfc/servlet.shepherd/version/renditionDownload?rendition=SVGZ&amp;versionId=0684K000002uh3K&amp;operationContext=CHATTER&amp;contentId=05T4K000009BoID&amp;page=0</linkUrl>
+        <masterLabel>מדריך מקוצר למשתמש-זירת המעסיקים</masterLabel>
+        <sortOrder>1</sortOrder>
+    </customHelpMenuItems>
+    <masterLabel>מדריך למשתמש</masterLabel>
+</CustomHelpMenuSection>

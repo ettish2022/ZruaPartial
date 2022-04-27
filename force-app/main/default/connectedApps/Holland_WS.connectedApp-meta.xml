@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>itamargol@matrix.co.il</contactEmail>
+    <label>Holland WS</label>
+    <oauthConfig>
+        <callbackUrl>https://matrix.co.il</callbackUrl>
+        <certificate>MIIDoTCCAokCFDYhsAqXzMGv+RZd68ZBBu7EMKUeMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJTDEPMA0GA1UECAwGSXNyYWVsMRAwDgYDVQQHDAdIZXJ6bGlhMQ8wDQYDVQQKDAZNYXRyaXgxDjAMBgNVBAsMBUxhYm9yMRIwEAYDVQQDDAlEZXZlbG9wZXIxJTAjBgkqhkiG9w0BCQEWFml0YW1hcmdvbEBtYXRyaXguY28uaWwwHhcNMjExMjE1MTgzNTA1WhcNMzExMjEzMTgzNTA1WjCBjDELMAkGA1UEBhMCSUwxDzANBgNVBAgMBklzcmFlbDEQMA4GA1UEBwwHSGVyemxpYTEPMA0GA1UECgwGTWF0cml4MQ4wDAYDVQQLDAVMYWJvcjESMBAGA1UEAwwJRGV2ZWxvcGVyMSUwIwYJKoZIhvcNAQkBFhZpdGFtYXJnb2xAbWF0cml4LmNvLmlsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4SUjsxq24UVW0ZIJR6ODFCcL8hRFu58ahnEp+5v5Rp0XqBtyft+KA+u9HUVhUh0uZaXhmI84TQTWof84p/F4a/yTGgZT2DkqEETCRNovWtIOIFU3IJoKhIsN2z9vI3DTATCqJHzXdOOxV/LfUmmUJVEvzdaDxF5wnRezOKLydHGttxVZXTkBc2QODtOQOiIJCerR6N9SLWjJU5LDnzUfSNtxznPQSlTu5+ZNAZ9M3tUnzngBWPIoDIdsqdk7TYSlDgaUyQEVrYinTgKaGpkflcGZbDJFq0zG2sES5ZnAqXSZD1+plzoh0NZ0DtROSbfeJM6C1aPXaVEbjAtMi4lUnQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCI+LAMrCPpw4ooxVvnzq5i9hlZXox1ZgXTqCQnGlal04lsvnJT2eEe5bX+EnCopcvj+JdPU4DQBNQLjpY5jCkmkzvAvNYZOgcg40/YqJi8m7bpbDr/qmTdhc/JNOtJCYBwfnsG7BZqhG4zA3y5sH1/AF/byHtahzPdYcooKDZOg7Jk70IAW4Tkdp2/sXToyLxOybjGxflNyiDPrHtk9hRFw5QBXebih2ub/OCF36BFlz59VMyiCKxBBhX4q1YIcYXCg3w+P6rMyxhJzkzuEzWxggrpKQTd5420h/dn8es30QBVufir+5p/PJR/Q+YSLkt/dM5VGAv7DceXhCTlLdms</certificate>
+        <consumerKey>3MVG9UP4ApgjJiu.1lyfhtrUjoCTAJjoYMQtJ_0T1YXH0n9PY_uRmUp5m.MKyVvAmepCi17olzV0gPZPrCj1H</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+    <profileName>Integration Holland</profileName>
+    <sessionPolicy>
+        <sessionTimeout>1440</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>
