@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CourseDistrict__c</fullName>
+    <description>מחוז הקורס</description>
     <externalId>false</externalId>
-    <label>מחוז הקורס</label>
+    <label>Course District</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
@@ -12,34 +13,29 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>מרכז</fullName>
-                <default>false</default>
-                <label>מרכז</label>
-            </value>
-            <value>
                 <fullName>1</fullName>
                 <default>false</default>
-                <label>1</label>
+                <label>Center</label>
             </value>
             <value>
                 <fullName>2</fullName>
                 <default>false</default>
-                <label>2</label>
+                <label>North</label>
             </value>
             <value>
                 <fullName>3</fullName>
                 <default>false</default>
-                <label>3</label>
+                <label>South</label>
             </value>
             <value>
                 <fullName>4</fullName>
                 <default>false</default>
-                <label>4</label>
+                <label>National</label>
             </value>
             <value>
                 <fullName>5</fullName>
                 <default>false</default>
-                <label>5</label>
+                <label>Jerusalem</label>
             </value>
             <value>
                 <fullName>ארצי</fullName>
@@ -58,6 +54,12 @@
                 <default>false</default>
                 <isActive>false</isActive>
                 <label>ירושלים</label>
+            </value>
+            <value>
+                <fullName>מרכז</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מרכז</label>
             </value>
             <value>
                 <fullName>צפון</fullName>
