@@ -17,24 +17,53 @@
                 <label>מרכז</label>
             </value>
             <value>
-                <fullName>צפון</fullName>
+                <fullName>1</fullName>
                 <default>false</default>
-                <label>צפון</label>
+                <label>1</label>
             </value>
             <value>
-                <fullName>דרום</fullName>
+                <fullName>2</fullName>
                 <default>false</default>
-                <label>דרום</label>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>4</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>5</label>
             </value>
             <value>
                 <fullName>ארצי</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>ארצי</label>
+            </value>
+            <value>
+                <fullName>דרום</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>דרום</label>
             </value>
             <value>
                 <fullName>ירושלים</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>ירושלים</label>
+            </value>
+            <value>
+                <fullName>צפון</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>צפון</label>
             </value>
         </valueSetDefinition>
     </valueSet>
